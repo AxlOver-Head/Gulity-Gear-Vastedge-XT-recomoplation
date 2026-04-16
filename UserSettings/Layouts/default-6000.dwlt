@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 89
+  controlID: 75
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 266.5
     height: 606
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 359
     width: 861.5
     height: 247
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 12}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 36
+  controlID: 37
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 37
+  controlID: 38
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -327,7 +327,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Assembly-CSharp
+    - Assets/Material
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -337,17 +337,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Assembly-CSharp
+  - Assets/Material
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Josef\Documents\Guilty Gear Decomp 6.0
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 395}
-    m_SelectedIDs: ce970000
-    m_LastClickedID: 38862
-    m_ExpandedIDs: 000000007e86000080860000828600008486000086860000888600009086000000ca9a3b
+    scrollPos: {x: 0, y: 89.000244}
+    m_SelectedIDs: b48b0000
+    m_LastClickedID: 35764
+    m_ExpandedIDs: 000000008a8600008c8600008e8600009086000092860000948600009686000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -376,7 +376,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e86000080860000828600008486000086860000888600008a8600008c8600008e86000090860000
+    m_ExpandedIDs: 000000008a8600008c8600008e86000090860000928600009486000096860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -402,9 +402,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c2b00000
-    m_LastClickedInstanceID: 45250
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -430,7 +430,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 4776}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -526,7 +526,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3496ffff78a4ffff86a4ffff90a4ffffb4a5ffffd2abffffaaafffff06b1ffff6cb1ffffecb2ffff52b3ffff14b8ffff46bfffffa2c0ffff2ac5ffffa4c5ffff50c8ffff0efbffffa4960000b6960000b8960000be960000cc96000050990000589900005a99000060990000caad0000cead0000d4ad0000dcad0000dead0000e4ad0000f2ad0000f4ad0000fead000000ae00009cb00000aeb00000b0b00000b6b00000c4b00000c6b00000d0b00000d2b00000beb30000d0b30000d2b30000d8b30000
+      m_ExpandedIDs: 48b3ffffd8c1ffff04f9ffff6af9ffff1afbffff90940000a2940000a4940000aa940000ec970000ee970000f8970000fa970000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

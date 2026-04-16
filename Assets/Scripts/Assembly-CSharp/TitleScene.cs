@@ -285,26 +285,33 @@ public class TitleScene : SceneUpdater
 				SGLG.gameMode = SGLG.GAMEMODE.HALL;
 				MainGameScene.backFrom = MainGameScene.FROM.NONE;
 				setInput(false);
+				print("m_IsGameStart");
 				if (PlayUserData.saveData.m_seisanComitFlag == 1)
 				{
+					print("PlayUserData.saveData.m_seisanComitFlag == 1");
 					GameObject gameObject2 = SGLG.createDialog(22);
 					m_Dialog_22 = gameObject2.GetComponent<UIDialog_22>();
 					setCurrent(MODE.DIALOG22);
 				}
 				else if (UserData.saveData.hall.gameStart)
 				{
+					print("UserData.saveData.hall.gameStart");
 					GameObject gameObject3 = SGLG.createDialog(3);
 					m_Dialog_03 = gameObject3.GetComponent<UIDialog_03>();
 					setCurrent(MODE.DIALOG03);
 				}
 				else if (PlayUserData.saveData.getUnique() == string.Empty)
 				{
+					print("PlayUserData.saveData.getUnique() == string.Empty");
 					setCurrent(MODE.UNIQUE);
+					print("mode unique");
 					startConnectUnique();
+					print("connected unique");
 					isConnect = true;
 				}
 				else
 				{
+					print("else");
 					SGLG.startLoading();
 					stopBGM();
 					setCurrent(MODE.TOHALL);
@@ -342,14 +349,17 @@ public class TitleScene : SceneUpdater
 			}
 			break;
 		case MODE.UNIQUE:
+			print("unique");
 			if (isUniqueError())
 			{
+				print("unique error");
 				m_Dialog_16 = SGLG.createDialog(16).GetComponent<UIDialog_16>();
 				setCurrent(MODE.UNIQUERETRY);
 				isConnect = false;
 			}
 			else if (isUniqueSuccess())
 			{
+				print("unique success");
 				if (SGLG.gameMode == SGLG.GAMEMODE.SIMULATION)
 				{
 					setCurrent(MODE.TO_SIM_SETTEI);
@@ -359,6 +369,7 @@ public class TitleScene : SceneUpdater
 				}
 				else
 				{
+					print("unique success else");
 					SGLG.startLoading();
 					stopBGM();
 					setCurrent(MODE.TOHALL);
@@ -388,6 +399,7 @@ public class TitleScene : SceneUpdater
 			}
 			break;
 		case MODE.TOHALL:
+			print("to hall");
 			if (SGLG.loading.loadStart)
 			{
 				startSetGameData_GameStart();
@@ -810,15 +822,19 @@ public class TitleScene : SceneUpdater
 		return Sim_SlotUserData.saveData.m_saveFlag;
 	}
 
-	public void startConnectUnique()
+	private void startConnectUnique()
 	{
-		string url = SGLG.URL_PHP;
-		if (m_RedirectUnique.Length != 0)
-		{
-			url = m_RedirectUnique;
-		}
-		m_UniqueResult = RESULT.NONE;
-		NetUtility.sendGetUniqueID(url, base.gameObject, "endConnectUnique");
+		// Skip connection - set local unique ID
+		PlayUserData.saveData.setUnique("LOCAL_" + System.DateTime.Now.Ticks);
+		PlayUserData.save();
+		Debug.Log("Skipped unique ID connection");
+
+		onUniqueResponse();
+	}
+
+	private void onUniqueResponse()
+	{
+    	Debug.Log("Unique ID set - proceeding to game");
 	}
 
 	public void endConnectUnique()
@@ -852,12 +868,14 @@ public class TitleScene : SceneUpdater
 
 	public bool isUniqueError()
 	{
-		return m_UniqueResult != RESULT.OK && m_UniqueResult != RESULT.NONE;
+		//return m_UniqueResult != RESULT.OK && m_UniqueResult != RESULT.NONE;
+		return false; // Since we're skipping the unique ID connection, we won't have an error
 	}
 
 	public bool isUniqueSuccess()
 	{
-		return m_UniqueResult == RESULT.OK;
+		//return m_UniqueResult == RESULT.OK;
+		return true; // Since we're skipping the unique ID connection, we'll assume success
 	}
 
 	public void startCommit()
