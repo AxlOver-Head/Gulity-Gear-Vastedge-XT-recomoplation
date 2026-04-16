@@ -277,6 +277,12 @@ public class UIDataPanel : MonoBehaviour
 
 	private void Update()
 	{
+		if (MainGameScene.slotGameMan == null ||
+        MainGameScene.slotGameMan.data == null ||
+        MainGameScene.slotGameMan.data.hisData == null)
+    	{
+        	return;
+    	}
 		m_BlinkCount++;
 		if (m_BlinkCount > 40)
 		{

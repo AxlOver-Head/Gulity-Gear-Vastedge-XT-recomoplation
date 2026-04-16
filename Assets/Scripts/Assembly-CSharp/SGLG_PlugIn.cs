@@ -4,23 +4,28 @@ public class SGLG_PlugIn
 {
 	private static SGLG_PlugIn_Abstract pluginInstance;
 
-	public static void init()
-	{
-		if (Application.platform == RuntimePlatform.OSXEditor)
-		{
-			pluginInstance = new SGLG_PlugIn_MacOS();
-		}
-		else if (Application.platform != RuntimePlatform.WindowsPlayer)
-		{
-			if (Application.platform == RuntimePlatform.Android)
-			{
-				pluginInstance = new SGLG_PlugIn_Android();
-			}
-			else if (Application.platform == RuntimePlatform.IPhonePlayer)
-			{
-				pluginInstance = new SGLG_PlugIn_iOS();
-			}
-		}
+public static void init()
+{
+    if (Application.platform == RuntimePlatform.OSXEditor)
+    {
+        pluginInstance = new SGLG_PlugIn_MacOS();
+    }
+    else if (Application.platform == RuntimePlatform.WindowsEditor
+          || Application.platform == RuntimePlatform.WindowsPlayer)
+    {
+        pluginInstance = new SGLG_PlugIn_Windows(); // ← stub, no native DLL
+    }
+    else if (Application.platform == RuntimePlatform.Android)
+    {
+        pluginInstance = new SGLG_PlugIn_Android();
+    }
+    else if (Application.platform == RuntimePlatform.IPhonePlayer)
+    {
+        pluginInstance = new SGLG_PlugIn_iOS();
+    }
+
+    if (pluginInstance == null)
+        Debug.LogError($"SGLG_PlugIn: No implementation for platform: {Application.platform}");
 	}
 
 	public static int test()

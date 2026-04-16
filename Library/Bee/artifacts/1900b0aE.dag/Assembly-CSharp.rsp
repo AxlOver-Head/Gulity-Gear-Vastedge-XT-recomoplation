@@ -712,6 +712,7 @@
 "Assets/Scripts/Assembly-CSharp/SGLG_PlugIn_Android.cs"
 "Assets/Scripts/Assembly-CSharp/SGLG_PlugIn_MacOS.cs"
 "Assets/Scripts/Assembly-CSharp/SGLG_PlugIn_iOS.cs"
+"Assets/Scripts/Assembly-CSharp/SGLG_Plugin_Windows.cs"
 "Assets/Scripts/Assembly-CSharp/SND_Df.cs"
 "Assets/Scripts/Assembly-CSharp/SaveData.cs"
 "Assets/Scripts/Assembly-CSharp/SceneUpdater.cs"

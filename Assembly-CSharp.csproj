@@ -496,6 +496,7 @@
     <Compile Include="Assets\Scripts\Assembly-CSharp\Direction16KBS.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MainObjReel1.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\UITable.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SGLG_Plugin_Windows.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\LEDPanelObj_Push.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\Direction35DHI.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\UISimMenuSetteiChangeFromTitle.cs" />
