@@ -1,0 +1,706 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Direction_ANV2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: ea67527d82afe3e4b9b3d21037a1c4f3, type: 2}
+  sprites:
+  - name: 2401_c_flo_b06_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 1720
+      y: 1864
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1720
+      y: 1864
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a03_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 950
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 950
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a06_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 610
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 610
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b03_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 1504
+      y: 1645
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1504
+      y: 1645
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c03_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 516
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 516
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c06_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1830
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1830
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b06_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c01_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 1032
+      y: 1830
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 1032
+      y: 1830
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b07_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 1460
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 1460
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b07_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 1214
+      y: 1645
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1214
+      y: 1645
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b01_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 634
+      y: 1645
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 634
+      y: 1645
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c06_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1173
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1173
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a08_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 100
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 100
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c08_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1611
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1611
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a06_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 874
+      y: 1290
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 874
+      y: 1290
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a03_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 609
+      y: 1290
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 609
+      y: 1290
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b03_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 1214
+      y: 1460
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1214
+      y: 1460
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c03_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1392
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1392
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a06_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 1290
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 1290
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b01_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 1460
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 1460
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b06_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 634
+      y: 1460
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 634
+      y: 1460
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c06_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 1830
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 1830
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c01_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 735
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 735
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b07_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 1645
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 1645
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b01_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 1645
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 1645
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a08_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 270
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 270
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c08_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 954
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 954
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c03_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 1830
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 1830
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a01_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 1120
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 1120
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_b03_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 1504
+      y: 1460
+      width: 289
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1504
+      y: 1460
+      width: 289
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a03_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 440
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 440
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a01_c1_c2
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 780
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 780
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a08_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 1404
+      y: 1290
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 1404
+      y: 1290
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c08_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 297
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 297
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_a01_c2_c2
+    outer:
+      serializedVersion: 2
+      x: 1139
+      y: 1290
+      width: 264
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 1139
+      y: 1290
+      width: 264
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2401_c_flo_c01_c3_c2
+    outer:
+      serializedVersion: 2
+      x: 688
+      y: 1830
+      width: 343
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 688
+      y: 1830
+      width: 343
+      height: 218
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

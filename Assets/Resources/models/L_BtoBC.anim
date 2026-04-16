@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: L_BtoBC
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.5609855, y: 0.43045932, z: 0.43045932, w: 0.5609855}
+        inSlope: {x: 2.8427284, y: 3.0351517, z: 3.0351517, w: -2.8427284}
+        outSlope: {x: 2.8427284, y: 3.0351517, z: 3.0351517, w: -2.8427284}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: -0.4662279, y: 0.53163105, z: 0.53163105, w: 0.4662279}
+        inSlope: {x: 3.1114817, y: 2.7286968, z: 2.7286968, w: -3.1114817}
+        outSlope: {x: 3.1114817, y: 2.7286968, z: 2.7286968, w: -3.1114817}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: -0.35355338, y: 0.61237246, z: 0.61237246, w: 0.35355338}
+        inSlope: {x: 3.380235, y: 2.422242, z: 2.422242, w: -3.380235}
+        outSlope: {x: 3.380235, y: 2.422242, z: 2.422242, w: -3.380235}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: -3.7252903E-09, y: -8.940697E-08, z: 1.7881393E-07}
+    m_Extent: {x: 0.036614094, y: 0.036614098, z: 0.060000062}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

@@ -1,0 +1,1102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Direction_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 2e913db09d46c804791599716bcf4022, type: 2}
+  sprites:
+  - name: 07A02_o_u_i_01b
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 217
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 217
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_05a
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 50
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 50
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_07a
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 61
+      width: 41
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 61
+      width: 41
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 41
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 41
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_04b
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 206
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 206
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_02a
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 173
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 173
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_05a
+    outer:
+      serializedVersion: 2
+      x: 422
+      y: 246
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 246
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_10a
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 12
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 12
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_02a
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 1
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 1
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b04
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 9
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 9
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b03
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 9
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 9
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_04a
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 39
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 39
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_12a
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 39
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 39
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_01a
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 184
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 184
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_04a
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 195
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 195
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_06b
+    outer:
+      serializedVersion: 2
+      x: 270
+      y: 25
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 270
+      y: 25
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_06a
+    outer:
+      serializedVersion: 2
+      x: 270
+      y: 14
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 270
+      y: 14
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_a01
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 143
+      width: 187
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 288
+      y: 143
+      width: 187
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b09
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 36
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 36
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_07b
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 50
+      width: 41
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 50
+      width: 41
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b00
+    outer:
+      serializedVersion: 2
+      x: 83
+      y: 18
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 18
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b06
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 45
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 45
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b08
+    outer:
+      serializedVersion: 2
+      x: 83
+      y: 45
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 45
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_07a
+    outer:
+      serializedVersion: 2
+      x: 270
+      y: 3
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 270
+      y: 3
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A00_o_u_b01
+    outer:
+      serializedVersion: 2
+      x: 288
+      y: 164
+      width: 72
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 288
+      y: 164
+      width: 72
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b01
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 36
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 36
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A00_o_u_a00_c1
+    outer:
+      serializedVersion: 2
+      x: 42
+      y: 3
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 42
+      y: 3
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_08a
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 228
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 228
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_06a
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 228
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 228
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b02
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 45
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 45
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 29_jac_a_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 51
+      width: 82
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 51
+      width: 82
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A00_o_u_b03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 72
+      width: 143
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 72
+      width: 143
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_e01_p2
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 63
+      width: 72
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 63
+      width: 72
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b07
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 9
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 9
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_03a
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 25
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 25
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_02b
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 14
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 14
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 29_jac_a_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 82
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 82
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_g01
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 36
+      width: 24
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 36
+      width: 24
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_03a
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 7
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 7
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_05b
+    outer:
+      serializedVersion: 2
+      x: 238
+      y: 3
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 238
+      y: 3
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A00_o_u_a00_c2
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 18
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 18
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_11a
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 23
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 23
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A00_o_u_b02
+    outer:
+      serializedVersion: 2
+      x: 144
+      y: 72
+      width: 143
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 144
+      y: 72
+      width: 143
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_12b
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 34
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 34
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A00_o_u_a00_c3
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 36
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 36
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_01a
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 7
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 7
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_09a
+    outer:
+      serializedVersion: 2
+      x: 83
+      y: 7
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 7
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_e02_p2
+    outer:
+      serializedVersion: 2
+      x: 74
+      y: 10
+      width: 6
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 74
+      y: 10
+      width: 6
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 74F10_u_l_b05
+    outer:
+      serializedVersion: 2
+      x: 104
+      y: 18
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 104
+      y: 18
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_13b
+    outer:
+      serializedVersion: 2
+      x: 125
+      y: 61
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 125
+      y: 61
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_13a
+    outer:
+      serializedVersion: 2
+      x: 63
+      y: 8
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 63
+      y: 8
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_i_03b
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 228
+      width: 31
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 228
+      width: 31
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_b01_p2
+    outer:
+      serializedVersion: 2
+      x: 74
+      y: 21
+      width: 6
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 74
+      y: 21
+      width: 6
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_h_11b
+    outer:
+      serializedVersion: 2
+      x: 63
+      y: 19
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 63
+      y: 19
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_b01_p2_1
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 239
+      width: 60
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 239
+      width: 60
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_b01_p2_2
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 63
+      width: 6
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 63
+      width: 6
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_e02_p2_2
+    outer:
+      serializedVersion: 2
+      x: 74
+      y: 1
+      width: 6
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 74
+      y: 1
+      width: 6
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 07A02_o_u_e02_p2_1
+    outer:
+      serializedVersion: 2
+      x: 361
+      y: 248
+      width: 60
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 248
+      width: 60
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

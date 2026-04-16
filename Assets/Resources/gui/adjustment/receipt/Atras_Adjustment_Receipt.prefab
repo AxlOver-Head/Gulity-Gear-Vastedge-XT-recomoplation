@@ -1,0 +1,670 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Adjustment_Receipt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 61220cb61b2516e4daef7667299eb048, type: 2}
+  sprites:
+  - name: receipt_num_b_ｃ
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 786
+      width: 16
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 786
+      width: 16
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_qr_4
+    outer:
+      serializedVersion: 2
+      x: 1169
+      y: 1439
+      width: 263
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 1169
+      y: 1439
+      width: 263
+      height: 263
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_c
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 849
+      width: 16
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 849
+      width: 16
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_3
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 534
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 534
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_2
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 849
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 849
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_7
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 408
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 408
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_qr_6
+    outer:
+      serializedVersion: 2
+      x: 1546
+      y: 1785
+      width: 263
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 1546
+      y: 1785
+      width: 263
+      height: 263
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_6
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 849
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 849
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_qr_1
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 1439
+      width: 263
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 1439
+      width: 263
+      height: 263
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_5
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 345
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 345
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_back_2
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 1703
+      width: 640
+      height: 345
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 1703
+      width: 640
+      height: 345
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_7
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 345
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 345
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_3
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 597
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 597
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_1
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 786
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 786
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_0
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 471
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 471
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_qr_3
+    outer:
+      serializedVersion: 2
+      x: 1282
+      y: 1785
+      width: 263
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 1282
+      y: 1785
+      width: 263
+      height: 263
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_back_1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 912
+      width: 640
+      height: 1136
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 912
+      width: 640
+      height: 1136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_1
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 534
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 534
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_2
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 282
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 282
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_m
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 219
+      width: 30
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 219
+      width: 30
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_8
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 471
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 471
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_9
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 282
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 282
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_4
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 660
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 660
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_6
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 723
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 723
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_4
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 597
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 597
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_8
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 660
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 660
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_5
+    outer:
+      serializedVersion: 2
+      x: 573
+      y: 723
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 573
+      y: 723
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_receipt
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 207
+      width: 527
+      height: 704
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 207
+      width: 527
+      height: 704
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_qr_2
+    outer:
+      serializedVersion: 2
+      x: 1433
+      y: 1439
+      width: 263
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 1433
+      y: 1439
+      width: 263
+      height: 263
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_r_0
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 786
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 786
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_qr_5
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 1439
+      width: 263
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 1439
+      width: 263
+      height: 263
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_num_b_9
+    outer:
+      serializedVersion: 2
+      x: 528
+      y: 408
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 408
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_button_1b
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 61
+      width: 117
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 61
+      width: 117
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: receipt_button_1a
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 134
+      width: 117
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 134
+      width: 117
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

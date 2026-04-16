@@ -1,0 +1,922 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Direction_DNV_add
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 1dbb58801b791e14bb4204cbc731be63, type: 2}
+  sprites:
+  - name: 3600_o_l_c07
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_u_a02_c3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 189
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 189
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c05
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 77
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 77
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_u_a02_c1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 121
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 121
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c08
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 32
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 32
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a07
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a02
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b11
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a12
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a04
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b10
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c04
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d08
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 77
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 77
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d06
+    outer:
+      serializedVersion: 2
+      x: 292
+      y: 32
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 292
+      y: 32
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_u_a02_c9
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 189
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 189
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b08
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c12
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d02
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c02
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b05
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b02
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 77
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 77
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_u_a02_c2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d10
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 32
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 32
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a09
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a08
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d03
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a03
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 144
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 144
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b09
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 99
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 99
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d12
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 54
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 54
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b04
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 9
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 9
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d07
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c03
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b03
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b07
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 77
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 77
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d05
+    outer:
+      serializedVersion: 2
+      x: 136
+      y: 32
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 136
+      y: 32
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a11
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a06
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b12
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_b06
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 77
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 77
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d09
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 32
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 32
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c10
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d11
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c09
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 122
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 122
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_d04
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 77
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 77
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a10
+    outer:
+      serializedVersion: 2
+      x: 214
+      y: 32
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 214
+      y: 32
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_c11
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 212
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 212
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3600_o_l_a05
+    outer:
+      serializedVersion: 2
+      x: 253
+      y: 167
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 253
+      y: 167
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

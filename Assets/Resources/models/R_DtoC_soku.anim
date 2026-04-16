@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: R_DtoC_soku
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.43045935, y: 0.56098557, z: 0.56098557, w: -0.43045935}
+        inSlope: {x: -7.423399, y: 3.6608145, z: 3.6608145, w: 7.423399}
+        outSlope: {x: -7.423399, y: 3.6608145, z: 3.6608145, w: 7.423399}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0.18301271, y: 0.6830127, z: 0.6830127, w: -0.18301271}
+        inSlope: {x: -7.841329, y: 2.101078, z: 2.101078, w: 7.841329}
+        outSlope: {x: -7.841329, y: 2.101078, z: 2.101078, w: 7.841329}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: -0.09229596, y: 0.70105743, z: 0.70105743, w: 0.09229596}
+        inSlope: {x: -8.259259, y: 0.5413413, z: 0.5413413, w: 8.259259}
+        outSlope: {x: -8.259259, y: 0.5413413, z: 0.5413413, w: 8.259259}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: -9.685755E-08, z: 1.1920929E-07}
+    m_Extent: {x: 0.036614098, y: 0.036614105, z: 0.06000012}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

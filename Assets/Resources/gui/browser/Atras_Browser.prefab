@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Browser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: d6ab3b4c911186647ae599ec06daf1c0, type: 2}
+  sprites:
+  - name: browser_arrow_r_c
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 749
+      width: 38
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 749
+      width: 38
+      height: 43
+    rotated: 0
+    paddingLeft: 0.84210527
+    paddingRight: 0.8684211
+    paddingTop: 0.76744187
+    paddingBottom: 0.4883721
+  - name: browser_close_a
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 972
+      width: 53
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 972
+      width: 53
+      height: 52
+    rotated: 0
+    paddingLeft: 0.49056605
+    paddingRight: 0.4528302
+    paddingTop: 0.53846157
+    paddingBottom: 0.32692307
+  - name: browser_arrow_r_a
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 793
+      width: 39
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 793
+      width: 39
+      height: 45
+    rotated: 0
+    paddingLeft: 0.82051283
+    paddingRight: 0.82051283
+    paddingTop: 0.7111111
+    paddingBottom: 0.44444445
+  - name: browser_arrow_l_b
+    outer:
+      serializedVersion: 2
+      x: 733
+      y: 943
+      width: 77
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 733
+      y: 943
+      width: 77
+      height: 81
+    rotated: 0
+    paddingLeft: 0.19480519
+    paddingRight: 0.14285715
+    paddingTop: 0.17283951
+    paddingBottom: 0.024691358
+  - name: browser_close_b
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 935
+      width: 91
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 935
+      width: 91
+      height: 89
+    rotated: 0
+    paddingLeft: 0.07692308
+    paddingRight: 0.054945055
+    paddingTop: 0.08988764
+    paddingBottom: 0
+  - name: browser_arrow_l_a
+    outer:
+      serializedVersion: 2
+      x: 40
+      y: 793
+      width: 39
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 40
+      y: 793
+      width: 39
+      height: 45
+    rotated: 0
+    paddingLeft: 0.84615386
+    paddingRight: 0.7948718
+    paddingTop: 0.7111111
+    paddingBottom: 0.44444445
+  - name: browser_reload_b
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 839
+      width: 99
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 839
+      width: 99
+      height: 94
+    rotated: 0
+    paddingLeft: 0.030303031
+    paddingRight: 0.01010101
+    paddingTop: 0.031914894
+    paddingBottom: 0
+  - name: browser_bar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 934
+      width: 640
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 934
+      width: 640
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: browser_arrow_r_b
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 943
+      width: 77
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 811
+      y: 943
+      width: 77
+      height: 81
+    rotated: 0
+    paddingLeft: 0.15584415
+    paddingRight: 0.18181819
+    paddingTop: 0.17283951
+    paddingBottom: 0.024691358
+  - name: browser_reload_a
+    outer:
+      serializedVersion: 2
+      x: 943
+      y: 973
+      width: 47
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 943
+      y: 973
+      width: 47
+      height: 51
+    rotated: 0
+    paddingLeft: 0.61702126
+    paddingRight: 0.5744681
+    paddingTop: 0.54901963
+    paddingBottom: 0.3529412
+  - name: browser_arrow_l_c
+    outer:
+      serializedVersion: 2
+      x: 39
+      y: 749
+      width: 38
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 39
+      y: 749
+      width: 38
+      height: 43
+    rotated: 0
+    paddingLeft: 0.8947368
+    paddingRight: 0.81578946
+    paddingTop: 0.76744187
+    paddingBottom: 0.4883721
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

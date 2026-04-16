@@ -1,0 +1,1012 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Dialog_new2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 51e70e4cd380ce14da5d5df0f879c47f, type: 2}
+  sprites:
+  - name: dialog_num_w_0
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 341
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 341
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_4
+    outer:
+      serializedVersion: 2
+      x: 473
+      y: 300
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 473
+      y: 300
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_mes_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 431
+      height: 367
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 431
+      height: 367
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_8
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 259
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 259
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_1
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 259
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 259
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_5
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 228
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 228
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_6
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 228
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 228
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_09
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 176
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 176
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_04
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 30
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 30
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_4
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 197
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 197
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_08
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 322
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 322
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_07
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 322
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 322
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_mes_02
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 635
+      width: 463
+      height: 389
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 635
+      width: 463
+      height: 389
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_3
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 197
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 197
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_03
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 249
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 249
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_c
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 166
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 166
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_05
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 103
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 103
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_2
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 166
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 166
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_window_1
+    outer:
+      serializedVersion: 2
+      x: 1532
+      y: 744
+      width: 506
+      height: 280
+    inner:
+      serializedVersion: 2
+      x: 1532
+      y: 744
+      width: 506
+      height: 280
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_1
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 135
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 135
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_c
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 135
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 135
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_m
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 104
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 104
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_window_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 372
+      width: 506
+      height: 652
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 372
+      width: 506
+      height: 652
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_7
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 104
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 104
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_6
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 73
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 73
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_7
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 73
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 73
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_02
+    outer:
+      serializedVersion: 2
+      x: 1489
+      y: 285
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1489
+      y: 285
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_3
+    outer:
+      serializedVersion: 2
+      x: 1014
+      y: 547
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1014
+      y: 547
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_2
+    outer:
+      serializedVersion: 2
+      x: 1041
+      y: 578
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1041
+      y: 578
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_9
+    outer:
+      serializedVersion: 2
+      x: 1014
+      y: 578
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1014
+      y: 578
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_8
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 11
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 11
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_9
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 42
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 42
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_r_0
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 11
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 11
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_num_w_5
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 42
+      width: 26
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 42
+      width: 26
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_01
+    outer:
+      serializedVersion: 2
+      x: 1489
+      y: 358
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1489
+      y: 358
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_window_3
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 180
+      width: 506
+      height: 428
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 180
+      width: 506
+      height: 428
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: login_check_b
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 331
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 331
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: login_check_a
+    outer:
+      serializedVersion: 2
+      x: 432
+      y: 290
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 432
+      y: 290
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_10
+    outer:
+      serializedVersion: 2
+      x: 1676
+      y: 431
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1676
+      y: 431
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_11
+    outer:
+      serializedVersion: 2
+      x: 1489
+      y: 431
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1489
+      y: 431
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_button_12
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 30
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 30
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: login_back_tuika_text2
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 18
+      width: 432
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 18
+      width: 432
+      height: 161
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.0062111802
+  - name: login_back_tuika
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 609
+      width: 560
+      height: 415
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 609
+      width: 560
+      height: 415
+    rotated: 0
+    paddingLeft: 0.017857144
+    paddingRight: 0.017857144
+    paddingTop: 0.028915662
+    paddingBottom: 0.031325303
+  - name: sglg_bt_ｃlose
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 176
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 176
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: login_back_tuika_text
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 395
+      width: 384
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 395
+      width: 384
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sglg_bt_site
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 249
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 249
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sglg_bt_next
+    outer:
+      serializedVersion: 2
+      x: 1255
+      y: 103
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1255
+      y: 103
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: login_back_tuika_text3
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 450
+      width: 420
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 450
+      width: 420
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.018867925
+  - name: gdt_dialog_message_mochitama_03
+    outer:
+      serializedVersion: 2
+      x: 1532
+      y: 635
+      width: 387
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1532
+      y: 635
+      width: 387
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0025839794
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gdt_dialog_message_mochitama_01
+    outer:
+      serializedVersion: 2
+      x: 1551
+      y: 570
+      width: 355
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1551
+      y: 570
+      width: 355
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0028169013
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gdt_dialog_message_mochitama_02
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 142
+      width: 106
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 142
+      width: 106
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.027027028
+  - name: sglg_dialog_message_mochitama_03
+    outer:
+      serializedVersion: 2
+      x: 1068
+      y: 504
+      width: 482
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 1068
+      y: 504
+      width: 482
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dialog_message_21
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 109
+      width: 122
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 109
+      width: 122
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

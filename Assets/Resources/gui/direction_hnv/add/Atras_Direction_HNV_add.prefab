@@ -1,0 +1,1030 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Direction_HNV_add
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: ea9e71d1048420e49bd407fd59e470e6, type: 2}
+  sprites:
+  - name: 2901_o_l_b02_c3
+    outer:
+      serializedVersion: 2
+      x: 124
+      y: 134
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 124
+      y: 134
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_a02_c4
+    outer:
+      serializedVersion: 2
+      x: 627
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 627
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_c02_c2
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 11
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 11
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_b02_c3
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 56
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 56
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b02_c3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b02_c4
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 389
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 389
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_a02_c1
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b02_c1
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 17
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 17
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b01_c1
+    outer:
+      serializedVersion: 2
+      x: 413
+      y: 264
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 413
+      y: 264
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_e02_c4
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 220
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 220
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b02_c2
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 265
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 265
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_b02_c2
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 236
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 236
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_a02_c9
+    outer:
+      serializedVersion: 2
+      x: 679
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 679
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b01_c2
+    outer:
+      serializedVersion: 2
+      x: 413
+      y: 181
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 413
+      y: 181
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b01_c3
+    outer:
+      serializedVersion: 2
+      x: 413
+      y: 15
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 413
+      y: 15
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_b02_c9
+    outer:
+      serializedVersion: 2
+      x: 124
+      y: 258
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 124
+      y: 258
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_a02_c2
+    outer:
+      serializedVersion: 2
+      x: 887
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 887
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_a02_c3
+    outer:
+      serializedVersion: 2
+      x: 575
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 575
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_a02_c1
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 468
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 468
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_b02_c1
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 9
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 9
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_c02_c1
+    outer:
+      serializedVersion: 2
+      x: 124
+      y: 303
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 124
+      y: 303
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b02_c3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 100
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 100
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_a02_c2
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 371
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 371
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b01_c2
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 182
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 182
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b01_c3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_d02_c1
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 281
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 281
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_a02_c9
+    outer:
+      serializedVersion: 2
+      x: 122
+      y: 3
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 122
+      y: 3
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_a02_c1
+    outer:
+      serializedVersion: 2
+      x: 939
+      y: 468
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 939
+      y: 468
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_c02_c1
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 416
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 416
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_c02_c2
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 101
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 101
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_a02_c2
+    outer:
+      serializedVersion: 2
+      x: 83
+      y: 3
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 3
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b02_c1
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 265
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 265
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_a02_c3
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_a02_c3
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 371
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 371
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_b02_c2
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 326
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 326
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_a02_c1
+    outer:
+      serializedVersion: 2
+      x: 731
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 731
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_b02_c1
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 326
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 326
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_c02_c9
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 191
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 191
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b01_c1
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 99
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 99
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_c02_c3
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 416
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 416
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_a02_c4
+    outer:
+      serializedVersion: 2
+      x: 83
+      y: 48
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 48
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_l_e02_c4
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 54
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 54
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b03_c9
+    outer:
+      serializedVersion: 2
+      x: 413
+      y: 347
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 413
+      y: 347
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_u_b01_c4
+    outer:
+      serializedVersion: 2
+      x: 413
+      y: 98
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 413
+      y: 98
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b01_c4
+    outer:
+      serializedVersion: 2
+      x: 413
+      y: 430
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 413
+      y: 430
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_a02_c3
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 137
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 137
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_d02_c1
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 146
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 146
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b02_c2
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 389
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 389
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_b02_c4
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 141
+      width: 123
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 141
+      width: 123
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2901_o_l_c02_c3
+    outer:
+      serializedVersion: 2
+      x: 124
+      y: 179
+      width: 38
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 124
+      y: 179
+      width: 38
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2900_o_u_a02_c2
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 461
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 461
+      width: 51
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cmn_e_h_04
+    outer:
+      serializedVersion: 2
+      x: 496
+      y: 384
+      width: 26
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 496
+      y: 384
+      width: 26
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cmn_e_h_23
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 16
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 16
+      width: 82
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cmn_e_h_12
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 348
+      width: 164
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 348
+      width: 164
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

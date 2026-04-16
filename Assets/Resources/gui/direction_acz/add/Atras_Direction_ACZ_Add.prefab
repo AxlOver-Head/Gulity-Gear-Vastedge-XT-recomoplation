@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Direction_ACZ_Add
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: e8b526fe3463a8244acd4c9d1bc5b970, type: 2}
+  sprites:
+  - name: 9604_bg_red2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 173
+      width: 256
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 173
+      width: 256
+      height: 146
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a08c_l2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 256
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 320
+      width: 256
+      height: 192
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_bg_pur
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 32
+      width: 256
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 32
+      width: 256
+      height: 146
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9604_bg_red
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 256
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 256
+      height: 146
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_chaoszone_04
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 366
+      width: 256
+      height: 146
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 366
+      width: 256
+      height: 146
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a08c_l
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 346
+      width: 264
+      height: 166
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 346
+      width: 264
+      height: 166
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a04_l
+    outer:
+      serializedVersion: 2
+      x: 862
+      y: 471
+      width: 82
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 862
+      y: 471
+      width: 82
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a05_l
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 282
+      width: 264
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 282
+      width: 264
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a06_l2
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 240
+      width: 264
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 240
+      width: 264
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a03_l
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 387
+      width: 82
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 387
+      width: 82
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a08a_l
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 179
+      width: 264
+      height: 166
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 179
+      width: 264
+      height: 166
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a08b_l
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 156
+      width: 264
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 156
+      width: 264
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a02_l
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 429
+      width: 82
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 429
+      width: 82
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a07a_l2
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 114
+      width: 264
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 114
+      width: 264
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a01_l
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 471
+      width: 82
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 471
+      width: 82
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a07a_l
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 198
+      width: 264
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 198
+      width: 264
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 9601_o_u_a06_l
+    outer:
+      serializedVersion: 2
+      x: 522
+      y: 324
+      width: 264
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 522
+      y: 324
+      width: 264
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Dialog_newv
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: d6c19047c2594594fbd5e0ed2a578bf9, type: 2}
+  sprites:
+  - name: white
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 304
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 304
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_dialog_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1185
+      width: 534
+      height: 863
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1185
+      width: 534
+      height: 863
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.0011587485
+  - name: kyoutuu_syokai_button_close_off
+    outer:
+      serializedVersion: 2
+      x: 535
+      y: 1106
+      width: 238
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 1106
+      width: 238
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_banner_d777
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1823
+      width: 307
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1823
+      width: 307
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0032573289
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_button_next_off
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1222
+      width: 238
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1222
+      width: 238
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_dialog_02
+    outer:
+      serializedVersion: 2
+      x: 1070
+      y: 1185
+      width: 534
+      height: 863
+    inner:
+      serializedVersion: 2
+      x: 1070
+      y: 1185
+      width: 534
+      height: 863
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.0011587485
+  - name: kyoutuu_syokai_button_next_on
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1380
+      width: 238
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1380
+      width: 238
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_button_close_on
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1301
+      width: 238
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1301
+      width: 238
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_dialog_03
+    outer:
+      serializedVersion: 2
+      x: 535
+      y: 1185
+      width: 534
+      height: 863
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 1185
+      width: 534
+      height: 863
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.0011587485
+  - name: kyoutuu_syokai_dialog_04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 321
+      width: 534
+      height: 863
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 321
+      width: 534
+      height: 863
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.0011587485
+  - name: gdt_dialog_message_mochitama_02
+    outer:
+      serializedVersion: 2
+      x: 388
+      y: 283
+      width: 106
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 388
+      y: 283
+      width: 106
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.027027028
+  - name: gdt_dialog_message_mochitama_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 212
+      width: 387
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 212
+      width: 387
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0025839794
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gdt_dialog_message_mochitama_01
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1459
+      width: 355
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1459
+      width: 355
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0028169013
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_syokai_banner_d777_on
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1936
+      width: 307
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1936
+      width: 307
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0032573289
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_login_button_03_on
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1524
+      width: 412
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1524
+      width: 412
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.01369863
+  - name: kyoutuu_login_button_01_on
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 127
+      width: 412
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 127
+      width: 412
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_login_button_02
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1748
+      width: 412
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1748
+      width: 412
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_login_button_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 42
+      width: 412
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 42
+      width: 412
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_login_button_02_on
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1673
+      width: 412
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1673
+      width: 412
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kyoutuu_login_button_03
+    outer:
+      serializedVersion: 2
+      x: 1605
+      y: 1598
+      width: 412
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 1605
+      y: 1598
+      width: 412
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

@@ -1,0 +1,3676 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: 00hall_ui
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 029a91f2c8d82cf4d8a28f3c466fdf29, type: 2}
+  sprites:
+  - name: btn_off_footer_pay
+    outer:
+      serializedVersion: 2
+      x: 785
+      y: 1490
+      width: 126
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 785
+      y: 1490
+      width: 126
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_dai
+    outer:
+      serializedVersion: 2
+      x: 719
+      y: 1771
+      width: 48
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 719
+      y: 1771
+      width: 48
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin2
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 1169
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 1169
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin4
+    outer:
+      serializedVersion: 2
+      x: 428
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin0
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 447
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin9
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_dise0
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin1
+    outer:
+      serializedVersion: 2
+      x: 504
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 504
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin7
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin_mainasu
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 1768
+      width: 18
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 1768
+      width: 18
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_on_footer_pay
+    outer:
+      serializedVersion: 2
+      x: 828
+      y: 1570
+      width: 126
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 1570
+      width: 126
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin5
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin3
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin6
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin8
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: foot
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1549
+      width: 640
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1549
+      width: 640
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_dise0
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 1998
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 1998
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 640
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 640
+      height: 138
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g7
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 1947
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 1947
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g1
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_setei
+    outer:
+      serializedVersion: 2
+      x: 768
+      y: 1771
+      width: 48
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 768
+      y: 1771
+      width: 48
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y5
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 1139
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 1139
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g5
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 447
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g4
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 1331
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 1331
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g2
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 1280
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 1280
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y1
+    outer:
+      serializedVersion: 2
+      x: 316
+      y: 1217
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 316
+      y: 1217
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g9
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 447
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g3
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 1280
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 1280
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g3
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g1
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 1331
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 1331
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g6
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_dise0
+    outer:
+      serializedVersion: 2
+      x: 997
+      y: 1304
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 997
+      y: 1304
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y8
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 1178
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 208
+      y: 1178
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g8
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g4
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y6
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 1217
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 1217
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g7
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g0
+    outer:
+      serializedVersion: 2
+      x: 929
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 929
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g6
+    outer:
+      serializedVersion: 2
+      x: 894
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 894
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g8
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g0
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y3
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 1151
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 1151
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g5
+    outer:
+      serializedVersion: 2
+      x: 754
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 754
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y0
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 1265
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 993
+      y: 1265
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_g2
+    outer:
+      serializedVersion: 2
+      x: 580
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 580
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y2
+    outer:
+      serializedVersion: 2
+      x: 787
+      y: 1267
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 787
+      y: 1267
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y9
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 1217
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 1217
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y4
+    outer:
+      serializedVersion: 2
+      x: 316
+      y: 1178
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 316
+      y: 1178
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_y7
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 1178
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 1178
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_g9
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 1896
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 1896
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda2
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda3
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 382
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda5
+    outer:
+      serializedVersion: 2
+      x: 220
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 220
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda0
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 1680
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 1680
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda1
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda6
+    outer:
+      serializedVersion: 2
+      x: 463
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 463
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda4
+    outer:
+      serializedVersion: 2
+      x: 625
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 625
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuda7
+    outer:
+      serializedVersion: 2
+      x: 706
+      y: 1257
+      width: 80
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 706
+      y: 1257
+      width: 80
+      height: 87
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_b3
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 1261
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 1261
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_b1
+    outer:
+      serializedVersion: 2
+      x: 854
+      y: 1261
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 1261
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_r3
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 1261
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 1261
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_r4
+    outer:
+      serializedVersion: 2
+      x: 709
+      y: 1390
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 709
+      y: 1390
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_b4
+    outer:
+      serializedVersion: 2
+      x: 674
+      y: 1390
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 674
+      y: 1390
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_y2
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 1390
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 1390
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_b2
+    outer:
+      serializedVersion: 2
+      x: 604
+      y: 1390
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 604
+      y: 1390
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_r1
+    outer:
+      serializedVersion: 2
+      x: 569
+      y: 1390
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 569
+      y: 1390
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_b5
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 1549
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 1549
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_y4
+    outer:
+      serializedVersion: 2
+      x: 828
+      y: 1551
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 1551
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_r2
+    outer:
+      serializedVersion: 2
+      x: 971
+      y: 1774
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 971
+      y: 1774
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_y5
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 1774
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 1774
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_r5
+    outer:
+      serializedVersion: 2
+      x: 901
+      y: 1774
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 901
+      y: 1774
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_y3
+    outer:
+      serializedVersion: 2
+      x: 863
+      y: 1551
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 863
+      y: 1551
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_big_y1
+    outer:
+      serializedVersion: 2
+      x: 898
+      y: 1551
+      width: 34
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 898
+      y: 1551
+      width: 34
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_mini_1
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 1211
+      width: 34
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 1211
+      width: 34
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_mini_3
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 1196
+      width: 34
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 1196
+      width: 34
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_mini_2
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 1226
+      width: 34
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 1226
+      width: 34
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tubu_mini_0
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 1241
+      width: 34
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 1241
+      width: 34
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r9
+    outer:
+      serializedVersion: 2
+      x: 981
+      y: 1629
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 981
+      y: 1629
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b1
+    outer:
+      serializedVersion: 2
+      x: 316
+      y: 1139
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 316
+      y: 1139
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r5
+    outer:
+      serializedVersion: 2
+      x: 971
+      y: 1498
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 971
+      y: 1498
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b9
+    outer:
+      serializedVersion: 2
+      x: 787
+      y: 1306
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 787
+      y: 1306
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r0
+    outer:
+      serializedVersion: 2
+      x: 911
+      y: 1439
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 1439
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r2
+    outer:
+      serializedVersion: 2
+      x: 946
+      y: 1439
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 946
+      y: 1439
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r1
+    outer:
+      serializedVersion: 2
+      x: 981
+      y: 1439
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 981
+      y: 1439
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r3
+    outer:
+      serializedVersion: 2
+      x: 789
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 789
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b7
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 1217
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 208
+      y: 1217
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r8
+    outer:
+      serializedVersion: 2
+      x: 824
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 824
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b4
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 1139
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 208
+      y: 1139
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r4
+    outer:
+      serializedVersion: 2
+      x: 964
+      y: 1387
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 964
+      y: 1387
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b0
+    outer:
+      serializedVersion: 2
+      x: 235
+      y: 1217
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 1217
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b8
+    outer:
+      serializedVersion: 2
+      x: 235
+      y: 1178
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 1178
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b5
+    outer:
+      serializedVersion: 2
+      x: 235
+      y: 1139
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 1139
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r6
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 1331
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 1331
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_b_r7
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 1280
+      width: 34
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 1280
+      width: 34
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b6
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 1178
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 1178
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b2
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 1139
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 262
+      y: 1139
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_m_b3
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 1217
+      width: 26
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 1217
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_zenjituRB
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 1263
+      width: 35
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 1263
+      width: 35
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_zenjituART
+    outer:
+      serializedVersion: 2
+      x: 960
+      y: 1265
+      width: 32
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 960
+      y: 1265
+      width: 32
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_zenjituBB
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 1302
+      width: 35
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 1302
+      width: 35
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_sougame
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 1770
+      width: 83
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 1770
+      width: 83
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y0
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y8
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b1
+    outer:
+      serializedVersion: 2
+      x: 580
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 580
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b2
+    outer:
+      serializedVersion: 2
+      x: 580
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 580
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_gamesu
+    outer:
+      serializedVersion: 2
+      x: 591
+      y: 1770
+      width: 66
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 591
+      y: 1770
+      width: 66
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r3
+    outer:
+      serializedVersion: 2
+      x: 580
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 580
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r1
+    outer:
+      serializedVersion: 2
+      x: 561
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 561
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y6
+    outer:
+      serializedVersion: 2
+      x: 561
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 561
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r2
+    outer:
+      serializedVersion: 2
+      x: 561
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 561
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b7
+    outer:
+      serializedVersion: 2
+      x: 561
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 561
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y7
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r9
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y1
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_ART
+    outer:
+      serializedVersion: 2
+      x: 869
+      y: 1771
+      width: 31
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 869
+      y: 1771
+      width: 31
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y3
+    outer:
+      serializedVersion: 2
+      x: 542
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 542
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b6
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r7
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r5
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b3
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b9
+    outer:
+      serializedVersion: 2
+      x: 504
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 504
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r0
+    outer:
+      serializedVersion: 2
+      x: 504
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 504
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y5
+    outer:
+      serializedVersion: 2
+      x: 504
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 504
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r8
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y2
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b4
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y4
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b0
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_RBkakuritu
+    outer:
+      serializedVersion: 2
+      x: 963
+      y: 1343
+      width: 37
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 963
+      y: 1343
+      width: 37
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r6
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r4
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b5
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_BBkakuritu
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 1343
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 1343
+      width: 38
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b8
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_BB
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 1132
+      width: 25
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 1132
+      width: 25
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y9
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_ARTkakuritu
+    outer:
+      serializedVersion: 2
+      x: 960
+      y: 1304
+      width: 36
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 960
+      y: 1304
+      width: 36
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_moji_RB
+    outer:
+      serializedVersion: 2
+      x: 999
+      y: 1684
+      width: 24
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 999
+      y: 1684
+      width: 24
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r_shash
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_r_haifn
+    outer:
+      serializedVersion: 2
+      x: 393
+      y: 1142
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 393
+      y: 1142
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y_haifn
+    outer:
+      serializedVersion: 2
+      x: 428
+      y: 1202
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 1202
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_y_shash
+    outer:
+      serializedVersion: 2
+      x: 428
+      y: 1175
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 1175
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b_haifn
+    outer:
+      serializedVersion: 2
+      x: 428
+      y: 1148
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 1148
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: data_no_s_b_shash
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 1229
+      width: 18
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 447
+      y: 1229
+      width: 18
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yajirusi_off
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 984
+      width: 132
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 984
+      width: 132
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yajirusi_on
+    outer:
+      serializedVersion: 2
+      x: 133
+      y: 984
+      width: 132
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 133
+      y: 984
+      width: 132
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tap_to_start_moji
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 1794
+      width: 328
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 1794
+      width: 328
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_screen
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 1223
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 1223
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: footer_coin_kanma
+    outer:
+      serializedVersion: 2
+      x: 1013
+      y: 2009
+      width: 8
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 1013
+      y: 2009
+      width: 8
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: win_tap_to_start
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 1866
+      width: 470
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 1866
+      width: 470
+      height: 182
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no8
+    outer:
+      serializedVersion: 2
+      x: 1011
+      y: 1879
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 1011
+      y: 1879
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_daiban_bg
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 1769
+      width: 60
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 1769
+      width: 60
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no5
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 1134
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 1134
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no9
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 1179
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 1179
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no1
+    outer:
+      serializedVersion: 2
+      x: 466
+      y: 1131
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 466
+      y: 1131
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no4
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 1551
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 1551
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no7
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 1553
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 933
+      y: 1553
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no3
+    outer:
+      serializedVersion: 2
+      x: 1003
+      y: 1551
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 1003
+      y: 1551
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no2
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 1152
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 1152
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no0
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 1135
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 1135
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no6
+    outer:
+      serializedVersion: 2
+      x: 428
+      y: 1131
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 1131
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: daiban_no_nasi
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 1131
+      width: 12
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 447
+      y: 1131
+      width: 12
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_info_moji1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1438
+      width: 761
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1438
+      width: 761
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_info_bg
+    outer:
+      serializedVersion: 2
+      x: 220
+      y: 1345
+      width: 598
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 220
+      y: 1345
+      width: 598
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_info_moji0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1490
+      width: 784
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1490
+      width: 784
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_info_moji2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1382
+      width: 568
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1382
+      width: 568
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_info_yajirusi
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 1873
+      width: 32
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 1873
+      width: 32
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: black_panel
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 1190
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 1190
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info4_r
+    outer:
+      serializedVersion: 2
+      x: 1006
+      y: 1771
+      width: 17
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 1771
+      width: 17
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info5_m
+    outer:
+      serializedVersion: 2
+      x: 999
+      y: 1385
+      width: 21
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 999
+      y: 1385
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info1_n
+    outer:
+      serializedVersion: 2
+      x: 694
+      y: 1210
+      width: 19
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 694
+      y: 1210
+      width: 19
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info8_i
+    outer:
+      serializedVersion: 2
+      x: 1013
+      y: 2022
+      width: 9
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 1013
+      y: 2022
+      width: 9
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info2_f
+    outer:
+      serializedVersion: 2
+      x: 1006
+      y: 1493
+      width: 15
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 1493
+      width: 15
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info0_i
+    outer:
+      serializedVersion: 2
+      x: 1013
+      y: 1971
+      width: 7
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 1013
+      y: 1971
+      width: 7
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info3_o
+    outer:
+      serializedVersion: 2
+      x: 694
+      y: 1232
+      width: 19
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 694
+      y: 1232
+      width: 19
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info9_o
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 1153
+      width: 18
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 1153
+      width: 18
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info10_n
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 1131
+      width: 18
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 1131
+      width: 18
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info7_t
+    outer:
+      serializedVersion: 2
+      x: 1006
+      y: 1522
+      width: 17
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 1006
+      y: 1522
+      width: 17
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info6_a
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 1129
+      width: 19
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 175
+      y: 1129
+      width: 19
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_footer_game02
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 1490
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 1490
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_footer_game01
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 1568
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 1568
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_seisan_moji
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 1642
+      width: 276
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 1642
+      width: 276
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_bt_02
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 1793
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 1793
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_bt_01
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 1556
+      width: 186
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 1556
+      width: 186
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no1
+    outer:
+      serializedVersion: 2
+      x: 999
+      y: 1737
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 999
+      y: 1737
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: info_yajirusi
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 1770
+      width: 32
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 1770
+      width: 32
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no8
+    outer:
+      serializedVersion: 2
+      x: 999
+      y: 1706
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 999
+      y: 1706
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_chakuseki_moji
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1256
+      width: 219
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1256
+      width: 219
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_bt_moji_ok
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 1638
+      width: 62
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 1638
+      width: 62
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no5
+    outer:
+      serializedVersion: 2
+      x: 999
+      y: 1407
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 999
+      y: 1407
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_bg_small
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1768
+      width: 506
+      height: 280
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1768
+      width: 506
+      height: 280
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no9
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 1351
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 1351
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no6
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 1186
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 1186
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no2
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 1155
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 1155
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_bt_moji_cancel
+    outer:
+      serializedVersion: 2
+      x: 762
+      y: 1446
+      width: 148
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 762
+      y: 1446
+      width: 148
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no4
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 1225
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 1225
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no3
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 1194
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 1194
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: header_info_moji
+    outer:
+      serializedVersion: 2
+      x: 569
+      y: 1409
+      width: 184
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 569
+      y: 1409
+      width: 184
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no7
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 1163
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 1163
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: popup_dai_no0
+    outer:
+      serializedVersion: 2
+      x: 370
+      y: 1132
+      width: 22
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 370
+      y: 1132
+      width: 22
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt_footer_yaji_game01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1129
+      width: 174
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1129
+      width: 174
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

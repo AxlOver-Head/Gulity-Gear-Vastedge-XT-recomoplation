@@ -1,0 +1,742 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Direction_KWS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 378b07b3544582c45b1cfd9b3a1720e0, type: 2}
+  sprites:
+  - name: 4300_c_mob_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 255
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 255
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_kai_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 185
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 185
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_izu_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 115
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 115
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_par_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 45
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 45
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_izu_A
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 745
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 745
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_jam_A
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 745
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 745
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_may_B
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 745
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 745
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_zap_B
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 675
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 675
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_may_A
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 675
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 675
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_o_u_b00_c2
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 675
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 675
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_zap_A
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 605
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 605
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_bri_B
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 605
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 605
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_z13_B
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 605
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 605
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_sol_B
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 535
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 535
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_par_A
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 465
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 465
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_gn4_A
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 395
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 395
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_mil_B
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 325
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 325
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_jam_B
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 255
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 255
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_chi_A
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 185
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 185
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_ano_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 955
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 955
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_o_u_a00_c2
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 955
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 955
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_ano_B
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 955
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 955
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_diz_B
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 955
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 955
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_bri_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 885
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 885
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_sin_A
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 885
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 885
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_o_u_a00_c1
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 885
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 885
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_mil_A
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 885
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 885
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_sin_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 815
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 815
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_o_u_b00_c1
+    outer:
+      serializedVersion: 2
+      x: 231
+      y: 815
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 231
+      y: 815
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_sly_A
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 815
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 815
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_gn4_B
+    outer:
+      serializedVersion: 2
+      x: 693
+      y: 815
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 693
+      y: 815
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_sly_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 745
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 745
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_chi_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 675
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 675
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_dyn_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 605
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 605
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_sol_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 535
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 535
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_kai_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 465
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 465
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_diz_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 395
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 395
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4300_c_z13_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 325
+      width: 230
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 325
+      width: 230
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

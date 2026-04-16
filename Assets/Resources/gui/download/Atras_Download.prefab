@@ -1,0 +1,598 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4730242686860875}
+  - 114: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Atras_Download
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 62bd8bcc00ef6524e841a56925e8736e, type: 2}
+  sprites:
+  - name: download_bar
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 956
+      width: 542
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 956
+      width: 542
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 736
+      width: 424
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 736
+      width: 424
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_4
+    outer:
+      serializedVersion: 2
+      x: 425
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 425
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_4
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 907
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 907
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_ten3
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 842
+      width: 78
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 842
+      width: 78
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_bar_red
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 887
+      width: 542
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 887
+      width: 542
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_8
+    outer:
+      serializedVersion: 2
+      x: 796
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 796
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_6
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 966
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 966
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_8
+    outer:
+      serializedVersion: 2
+      x: 536
+      y: 828
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 536
+      y: 828
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_9
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 916
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 916
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_ten1
+    outer:
+      serializedVersion: 2
+      x: 299
+      y: 842
+      width: 78
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 299
+      y: 842
+      width: 78
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_p
+    outer:
+      serializedVersion: 2
+      x: 478
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 478
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_1
+    outer:
+      serializedVersion: 2
+      x: 743
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 743
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_5
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 857
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 857
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_3
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_s
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 828
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 828
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_ten2
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 842
+      width: 78
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 842
+      width: 78
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_2
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_5
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 848
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 848
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_0
+    outer:
+      serializedVersion: 2
+      x: 584
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 584
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_7
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 857
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 945
+      y: 857
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_0
+    outer:
+      serializedVersion: 2
+      x: 586
+      y: 828
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 586
+      y: 828
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_logo
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 819
+      width: 298
+      height: 205
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 819
+      width: 298
+      height: 205
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_7
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 828
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 828
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_2
+    outer:
+      serializedVersion: 2
+      x: 686
+      y: 828
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 686
+      y: 828
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_3
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 966
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 966
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_pa_6
+    outer:
+      serializedVersion: 2
+      x: 690
+      y: 769
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 690
+      y: 769
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_1
+    outer:
+      serializedVersion: 2
+      x: 842
+      y: 907
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 842
+      y: 907
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_9
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 966
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 966
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: download_yo_c
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 828
+      width: 49
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 828
+      width: 49
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
