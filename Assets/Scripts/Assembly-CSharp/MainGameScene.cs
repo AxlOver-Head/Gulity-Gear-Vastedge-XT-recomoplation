@@ -327,6 +327,7 @@ public class MainGameScene : SceneUpdater
 
 	public override void control()
 	{
+		Debug.Log("Mode: " + m_Mode + " | Paused: " + SGLG.pause + " | IsOK: " + m_IsOK);
 		if (!m_IsOK || cameraMan == null || slotGameMan == null || slotMan == null || lotMan == null || dirMan == null || reelMan == null || ledMainMan == null || ledPanelMan == null || yakuMan == null || pushMan == null || dirLedMan == null || dirYakuMan == null || pnlMan == null || dir3MST_Sub == null)
 		{
 			return;
@@ -341,13 +342,13 @@ public class MainGameScene : SceneUpdater
 			}
 			break;
 		case MODE.NORMAL:
-			if (Input.GetKey(KeyCode.Escape))
-			{
-				m_Dialog_GameEnd = SGLG.createDialog(23).GetComponent<UIDialog_23>();
-				setMode(MODE.GAME_END);
-				pause();
-			}
-			break;
+			//quiq fix to check, will be replaced with proper input handling later
+			if (Input.GetKeyDown(KeyCode.Space)) MainGameScene.execPush();
+			if (Input.GetKeyDown(KeyCode.Z)) MainGameScene.execReel1();
+			if (Input.GetKeyDown(KeyCode.X)) MainGameScene.execReel2();
+			if (Input.GetKeyDown(KeyCode.C)) MainGameScene.execReel3();
+			///if (Input.GetKey(KeyCode.Escape)) { ... }
+    		break;
 		case MODE.GAME_END:
 			if (m_Dialog_GameEnd.isEnd)
 			{
@@ -608,7 +609,7 @@ public class MainGameScene : SceneUpdater
 		GameObject gameObject = SGLG.createDialog(26);
 		m_Dialog_26 = gameObject.GetComponent<UIDialog_26>();
 	}
-
+/*
 	public override void keyEvent()
 	{
 		if (m_IsOK && !SGLG.pause)
@@ -628,7 +629,32 @@ public class MainGameScene : SceneUpdater
 			base.keyEvent();
 		}
 	}
+*/
+public override void keyEvent()
+{
+    if (m_IsOK && !SGLG.pause)
+    {
+        MODE mode = m_Mode;
+        if (mode == MODE.NORMAL || mode == MODE.RESTART)
+        {
+            cameraMan.keyEvent();
+            slotMan.keyEvent();
+            SGLGDebugYaku.keyEvent();
+            SGLGDebugLED.keyEvent();
 
+            // Add your test inputs here
+            if (Input.GetKeyDown(KeyCode.Space)) execPush();
+            if (Input.GetKeyDown(KeyCode.Z)) execReel1();
+            if (Input.GetKeyDown(KeyCode.X)) execReel2();
+            if (Input.GetKeyDown(KeyCode.C)) execReel3();
+        }
+        if (m_Mode == MODE.RESTART)
+        {
+            controlRestart();
+        }
+        base.keyEvent();
+    }
+}
 	public static void execEkisyo()
 	{
 		cameraMan.ekisyoTouch();
@@ -636,6 +662,7 @@ public class MainGameScene : SceneUpdater
 
 	public static void execPush()
 	{
+		Debug.Log("Push executed");
 		pushMan.setPush(true);
 	}
 

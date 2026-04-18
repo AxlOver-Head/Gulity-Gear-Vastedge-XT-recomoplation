@@ -24,9 +24,9 @@ public class MainCameraManager
 
 	public float camX = 1000f;
 
-	public float camY = 0.55f;
+	public float camY = 0.65f;
 
-	public float camZ = 2.2f;
+	public float camZ = 3.2f;
 
 	public float camF = 14.7f;
 
@@ -108,21 +108,21 @@ public class MainCameraManager
 		}
 		else if (SGLG.viewMode == SGLG.VIEWMODE.IPHONE5)
 		{
-			num = 0.575f;
+			num = 0.29f;
 			num2 = 0.09417582f;
 			num3 = 0.575f;
 			num4 = 0.07061197f;
 		}
 		else
 		{
-			num = 0.59f;
+			num = 0.6f;
 			num2 = 0.09417582f;
 			num3 = 0.575f;
 			num4 = 0.07061197f;
 		}
 		camX = 1000f;
 		camY = num;
-		camZ = 2.2f;
+		camZ = 7.2f;
 		float num5 = num2;
 		float num6 = num5 / camera.aspect;
 		float num7 = 0.55f;

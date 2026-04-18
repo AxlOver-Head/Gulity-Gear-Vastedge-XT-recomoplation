@@ -1,0 +1,8 @@
+# Unity generated - never commit this
+/Library/
+
+# OBB files - too large for GitHub
+/Assets/Obb/
+
+# .vscode is like not supposed to be here i think?
+/.vscode

@@ -2,6 +2,6 @@
 An attempt to preserve the old Plinko game, Gulity Gear Vastedge XT 
 
 # Current Status
-Main Menu loads; however, the connection fails  
-<img width="312" height="388" alt="image" src="https://github.com/user-attachments/assets/f9f8a458-4dbd-4dbc-95d1-a038380bf06e" />  
-Working to fix this, the old server api seems down. Will try to avoid the connection altogether.  
+Main Menu loads along with the Plinko slot scene, but the Plinko slot is bugged  
+<img width="614" height="920" alt="image" src="https://github.com/user-attachments/assets/1c1e1e2c-424f-497d-a955-c5b9843c0c4f" />  
+Working to fix this, though I'm currently a bit stuck

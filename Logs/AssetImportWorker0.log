@@ -1,0 +1,844 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.73f1-3ad55a55f786' branch; Version is '6000.0.73f1 (a166abc3bf0e) revision 10577579'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Josef" at "2026-04-18T03:06:05.1335658Z"
+Process architecture: x64
+Date: 2026-04-18T03:06:05Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.73f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Josef/Documents/Guilty Gear Decomp 6.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55927
+-licensingIpc
+LicenseClient-Josef
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Josef/Documents/Guilty Gear Decomp 6.0
+C:/Users/Josef/Documents/Guilty Gear Decomp 6.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36176]  Target information:
+
+Player connection [36176]  * "[IP] 192.168.0.134 [Port] 0 [Flags] 2 [Guid] 2799774190 [EditorId] 2799774190 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2BKC1T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 29.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.73f1 (a166abc3bf0e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.73f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Josef/Documents/Guilty Gear Decomp 6.0/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) 760M (ID=0x15bf)
+    Vendor:   ATI
+    VRAM:     7838 MB
+    Driver:   32.0.12060.1002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.73f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.73f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.73f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.73f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              ed28910a295d41f1abafc97ef299efb9
+  Correlation Id:          96e1e300651fd0d943b6ff4294b364a0
+  External correlation Id: 4164107484545686668
+  Machine Id:              jnNTErGA/sWFclpoporpfO+iKWU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Josef" (connect: 0.00s, validation: 0.00s, handshake: 2.27s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Josef-notifications" at "2026-04-18T03:06:07.4036743Z"
+[Licensing::Module] Licensing Background thread has ended after 2.27s
+[Licensing::Module] Licensing is initialized (took 1.58s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-KS8T-NN4C-NS72-FWGR-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474599801285-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.73f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 1.592037 seconds.
+- Loaded All Assemblies, in  2.080 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 371 ms
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 2963ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (1651ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (845ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (556ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-KS8T-NN4C-NS72-FWGR-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474599801285-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.784 seconds
+Refreshing native plugins compatible for Editor in 15.80 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 1644ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (436ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (117ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 9.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3795 unused Assets / (1.4 MB). Loaded Objects now: 4295.
+Memory consumption went from 91.8 MB to 90.4 MB.
+Total: 11.778100 ms (FindLiveObjects: 0.547100 ms CreateObjectMapping: 0.178500 ms MarkObjects: 9.488800 ms  DeleteObjects: 1.561000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 185687.103331 seconds.
+  path: Assets/Obb/mst001_sol_a.mp4
+  artifactKey: Guid(79d2d079a8f1ae54e821c2f88dff3d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/mst001_sol_a.mp4 using Guid(79d2d079a8f1ae54e821c2f88dff3d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bb4a8a0d69a9196fee93d73447cecfc') in 0.025932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Obb/mst001_sol_a(1).mp4
+  artifactKey: Guid(88c59da639f23e045bf6cda5a6baff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/mst001_sol_a(1).mp4 using Guid(88c59da639f23e045bf6cda5a6baff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d22be6843868ee8fd885f7e6ef3bf2') in 0.0042117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.794525 seconds.
+  path: Assets/_gitignore
+  artifactKey: Guid(e4ce9185839687b4da94edcaeebf11dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_gitignore using Guid(e4ce9185839687b4da94edcaeebf11dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e6300aa83a4c245937f5846cfa9eb27') in 0.0006439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 350.097584 seconds.
+  path: Assets/Obb/acz001_loop.mp4
+  artifactKey: Guid(d69b8137c5a4d244699988397476be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz001_loop.mp4 using Guid(d69b8137c5a4d244699988397476be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '037c69a9e7e5db779d2163ef4b555c39') in 0.1194436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785827 seconds.
+  path: Assets/Obb/acz002.mp4
+  artifactKey: Guid(56ed446ad1e3ddc4d8beb5e607608489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz002.mp4 using Guid(56ed446ad1e3ddc4d8beb5e607608489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2f76290b520223bfc3b77051660c075') in 0.0045066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030327 seconds.
+  path: Assets/Obb/acz003.mp4
+  artifactKey: Guid(33c59d01149571a4080fa454fe5acd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz003.mp4 using Guid(33c59d01149571a4080fa454fe5acd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6d845420d199d0726af556e321daec0') in 0.0030275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Obb/acz004.mp4
+  artifactKey: Guid(7757b0fc2f5244e44a457f49981fa49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz004.mp4 using Guid(7757b0fc2f5244e44a457f49981fa49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f208ed7f9bea4e1e7cf20158dd1f8042') in 0.0019358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012508 seconds.
+  path: Assets/Obb/acz011_add2.mp4
+  artifactKey: Guid(0f9c396d4382d0041b921a5991607c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz011_add2.mp4 using Guid(0f9c396d4382d0041b921a5991607c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9903e5abc681fc07b3222211eecd000d') in 0.0020388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067889 seconds.
+  path: Assets/Obb/acz011_loop.mp4
+  artifactKey: Guid(0d9f1eb071cb1ec43be5c639651fe667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz011_loop.mp4 using Guid(0d9f1eb071cb1ec43be5c639651fe667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37485095a63bd420526a678fb5c3d02c') in 0.0014333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Obb/acz011_nml1.mp4
+  artifactKey: Guid(d82fe5255faeb47438b45c44f0d25771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz011_nml1.mp4 using Guid(d82fe5255faeb47438b45c44f0d25771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c43d791da40289a6ee3291279626241') in 0.001373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Obb/acz012.mp4
+  artifactKey: Guid(b9b90422e9695d64081c822570c8f8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz012.mp4 using Guid(b9b90422e9695d64081c822570c8f8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e9c37ecdda9127e2db3f61886bf524') in 0.0012249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Obb/acz014_add.mp4
+  artifactKey: Guid(88c4051df4997dc499313bf5478e45f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/acz014_add.mp4 using Guid(88c4051df4997dc499313bf5478e45f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42791f9106d665d6cae3730b18ed538') in 0.0014549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.349641 seconds.
+  path: Assets/Obb/adr001_a.mp4
+  artifactKey: Guid(bbdc2f66b02f82c44865a8a4b5591848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr001_a.mp4 using Guid(bbdc2f66b02f82c44865a8a4b5591848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee57e1248c209ed5b7fec77ba44f55d') in 0.0024772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Obb/adr001_b.mp4
+  artifactKey: Guid(d25ebdcc53f8bb745b80a22c1a43482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr001_b.mp4 using Guid(d25ebdcc53f8bb745b80a22c1a43482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '852db786afcbd59aac6d7c68f73f0263') in 0.0026046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Obb/adr002_a_loop.mp4
+  artifactKey: Guid(94628354fc875e44a9c18888467aa7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr002_a_loop.mp4 using Guid(94628354fc875e44a9c18888467aa7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86012e5c3ebb628318b08434baedcd76') in 0.0019929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027332 seconds.
+  path: Assets/Obb/adr002_b_loop.mp4
+  artifactKey: Guid(84ee155b00fe297438cfe5a5d6387c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr002_b_loop.mp4 using Guid(84ee155b00fe297438cfe5a5d6387c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8993ec4e45a58ea9a657e4971caaef98') in 0.0018424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Obb/adr003_loop.mp4
+  artifactKey: Guid(bd90bbd3754f6c44f9959daf4bbbe873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr003_loop.mp4 using Guid(bd90bbd3754f6c44f9959daf4bbbe873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '886b3b973795c3a0ada4fc74ac90b0b7') in 0.0019544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Obb/adr004_a_loop.mp4
+  artifactKey: Guid(3c84be17ab072704c9b66446b9d30744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr004_a_loop.mp4 using Guid(3c84be17ab072704c9b66446b9d30744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72a10ebab91bc93e33d41198a7b3beb') in 0.0014133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Obb/adr004_b.mp4
+  artifactKey: Guid(10673c64f4818524a93c11f92fab2ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr004_b.mp4 using Guid(10673c64f4818524a93c11f92fab2ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '239025c8d6df534c6f0363ad27b5dfeb') in 0.0014481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076694 seconds.
+  path: Assets/Obb/adr004_b_loop.mp4
+  artifactKey: Guid(c2483fa3b8910ac499c2ae73f7f1143b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr004_b_loop.mp4 using Guid(c2483fa3b8910ac499c2ae73f7f1143b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b9db952b923b2c8ce9541ea329288a') in 0.0014571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Obb/adr004_c_loop.mp4
+  artifactKey: Guid(6292cb868332dcc4f906626759d896de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr004_c_loop.mp4 using Guid(6292cb868332dcc4f906626759d896de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca9b5b72035e0d663515a5c6f0b7b618') in 0.0011101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Obb/adr006.mp4
+  artifactKey: Guid(c7e1f3688eee50349851b7e37b221bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/adr006.mp4 using Guid(c7e1f3688eee50349851b7e37b221bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caace6e44a2b274275df33ab92fd72ea') in 0.0015967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Obb/agh002_add.mp4
+  artifactKey: Guid(4d6fb4fca3ccde143af89c027637a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/agh002_add.mp4 using Guid(4d6fb4fca3ccde143af89c027637a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04fda4bc25c521007c02fdf1f4d3b4f2') in 0.0025439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023516 seconds.
+  path: Assets/Obb/agh003_add.mp4
+  artifactKey: Guid(b4c2fbe6c79fa9543b7011fd3851bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/agh003_add.mp4 using Guid(b4c2fbe6c79fa9543b7011fd3851bb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af321db733352eae9b685fb432d05b14') in 0.0016209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Obb/agh003_nml.mp4
+  artifactKey: Guid(25b1b4bde01d5284b901173e93812cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/agh003_nml.mp4 using Guid(25b1b4bde01d5284b901173e93812cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17b1a6ba8ce67ff811bf8f2a142b4f8a') in 0.0012303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Obb/aig001_b_loop.mp4
+  artifactKey: Guid(ed78ed4530273a34599c146b2c8e26ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aig001_b_loop.mp4 using Guid(ed78ed4530273a34599c146b2c8e26ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbf52c5a86d6ba0cb1c64388e672a7a0') in 0.0013436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Obb/aig001_d_loop.mp4
+  artifactKey: Guid(82483456b0dcc2740a71eee44779836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aig001_d_loop.mp4 using Guid(82483456b0dcc2740a71eee44779836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd08bc586cfea7c2f59c5c45375c3890b') in 0.0015973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.531232 seconds.
+  path: Assets/Obb/aig001_r.mp4
+  artifactKey: Guid(db5cef9bbae686545a3b8bc9218fe0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aig001_r.mp4 using Guid(db5cef9bbae686545a3b8bc9218fe0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e1ed34c45455cc40dd4e261bc31462c') in 0.0023617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Obb/aig002_b.mp4
+  artifactKey: Guid(da411061a2fa6a04994f8869fc71d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aig002_b.mp4 using Guid(da411061a2fa6a04994f8869fc71d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd835f4adc5a9d0468f01db31db10ced') in 0.0019505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Obb/aig002_bd_loop_nml.mp4
+  artifactKey: Guid(876c4319ef45d8e448eee51440b7625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aig002_bd_loop_nml.mp4 using Guid(876c4319ef45d8e448eee51440b7625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ad77b42a91918b4c76145dee31afd1e') in 0.0011854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Obb/aig002_bd_add.mp4
+  artifactKey: Guid(b2d847121abca774db89324e49829215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aig002_bd_add.mp4 using Guid(b2d847121abca774db89324e49829215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ced9af05660cf3c9a0e17c2cf39bbbac') in 0.0014627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.638124 seconds.
+  path: Assets/Obb/anv001_a01_c3_white.mp4
+  artifactKey: Guid(2bf446d5e52190b448c9e4a9cb7b386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv001_a01_c3_white.mp4 using Guid(2bf446d5e52190b448c9e4a9cb7b386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1be6088aec5f82e465262d5d2c6cb6b2') in 0.0023047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Obb/anv001_a01_c3_yellow.mp4
+  artifactKey: Guid(0495e8adce69ce6459d6882d9feb2c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv001_a01_c3_yellow.mp4 using Guid(0495e8adce69ce6459d6882d9feb2c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7997c551ec387459071eabf0d21295') in 0.0017256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Obb/anv001_a01_c3_yellow_loop.mp4
+  artifactKey: Guid(b5a33ff34e0793e4fa86cd8e8905b102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv001_a01_c3_yellow_loop.mp4 using Guid(b5a33ff34e0793e4fa86cd8e8905b102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c6df07b5730740c51b90a7dfd8c163') in 0.0022974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Obb/anv001_b02_c3_blue.mp4
+  artifactKey: Guid(5bbff14b52b47e943997bc5d20c64a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv001_b02_c3_blue.mp4 using Guid(5bbff14b52b47e943997bc5d20c64a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d3aed86c094cabecc72522a852d678f') in 0.0017967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086672 seconds.
+  path: Assets/Obb/anv001_b02_c3_white.mp4
+  artifactKey: Guid(2694d6b3c61ab71448943a4030cc19be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv001_b02_c3_white.mp4 using Guid(2694d6b3c61ab71448943a4030cc19be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adf539463880560a550ac6b72d5b30e6') in 0.0238103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290415 seconds.
+  path: Assets/Obb/anv001_c03_c3_yellow.mp4
+  artifactKey: Guid(1c3fff48903ff604eb20c00b93d82b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv001_c03_c3_yellow.mp4 using Guid(1c3fff48903ff604eb20c00b93d82b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac71c57793f7fe0d88304ab37fcb20d') in 0.0013751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Obb/anv002_a01_c3_white.mp4
+  artifactKey: Guid(3a6f0ef746d85544cbb5d8849ec672ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv002_a01_c3_white.mp4 using Guid(3a6f0ef746d85544cbb5d8849ec672ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd855e582d61c7eb3882fc0beaf509a3a') in 0.0085841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019279 seconds.
+  path: Assets/Obb/anv002_a01_c3_yellow_nml2.mp4
+  artifactKey: Guid(98f1fb57d178c154fa638cafd0b77a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv002_a01_c3_yellow_nml2.mp4 using Guid(98f1fb57d178c154fa638cafd0b77a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e0358eaecdd729553338ddad7981d89') in 0.001454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Obb/anv003_b02_c3_yellow_add.mp4
+  artifactKey: Guid(d72a51c1cba7b294fa907fbae138bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv003_b02_c3_yellow_add.mp4 using Guid(d72a51c1cba7b294fa907fbae138bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb4ec3624c577e0cd3b5f7de434bd6f4') in 0.0048354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Obb/anv004_c03_c3_blue.mp4
+  artifactKey: Guid(af62a42a5ef98494b93c3f0c8878f25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv004_c03_c3_blue.mp4 using Guid(af62a42a5ef98494b93c3f0c8878f25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e14e75aac8a845d0ad6c48f1b8de8d') in 0.0028379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Obb/anv003_b02_c3_yellow_nml.mp4
+  artifactKey: Guid(d60fd4d1b93f98a4ea36bf26402385fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv003_b02_c3_yellow_nml.mp4 using Guid(d60fd4d1b93f98a4ea36bf26402385fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e37f0c458cdec1be760c3e6173542b') in 0.002495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013229 seconds.
+  path: Assets/Obb/anv004_c03_c3_white.mp4
+  artifactKey: Guid(28125bad0dc8ed14a901736f8aaabe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv004_c03_c3_white.mp4 using Guid(28125bad0dc8ed14a901736f8aaabe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a819570210fe64e99bbc5c764497b2c') in 0.0015181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Obb/anv004_c03_c3_yellow_nml.mp4
+  artifactKey: Guid(abc709aa14efa3f4a96efe316aa23137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv004_c03_c3_yellow_nml.mp4 using Guid(abc709aa14efa3f4a96efe316aa23137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39047062d9961c28b041cf493987138b') in 0.0022089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Obb/anv005.mp4
+  artifactKey: Guid(203eaefc5230570479bfdff4e0d38960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv005.mp4 using Guid(203eaefc5230570479bfdff4e0d38960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba04df0d130c988d1bfcb5209e0b423f') in 0.0012996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Obb/anv004_c03_c3_yellow_nml2.mp4
+  artifactKey: Guid(d0feeb680fcd31042afae51d90cb5b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv004_c03_c3_yellow_nml2.mp4 using Guid(d0feeb680fcd31042afae51d90cb5b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf8bd348c3bd7e4c859811428f4234ba') in 0.0016128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035811 seconds.
+  path: Assets/Obb/anv022.mp4
+  artifactKey: Guid(4ee85d5f5be3e3143a11df5104e9bfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv022.mp4 using Guid(4ee85d5f5be3e3143a11df5104e9bfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a449c449e027e59de348f7c48025bd50') in 0.0018346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Obb/anv023.mp4
+  artifactKey: Guid(b3dd1b41204566940aeaa0611346d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv023.mp4 using Guid(b3dd1b41204566940aeaa0611346d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd85ebfc934a37db6029ed68280f5720a') in 0.0008193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Obb/anv024.mp4
+  artifactKey: Guid(95c6723adcf5fb74484ca858ec2921c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv024.mp4 using Guid(95c6723adcf5fb74484ca858ec2921c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec04809a0e5a0dd40c0f3863e2d32116') in 0.0010211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Obb/anv025.mp4
+  artifactKey: Guid(d2f4523eee0182d41847bc0a80b0c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv025.mp4 using Guid(d2f4523eee0182d41847bc0a80b0c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c610c8d7e61656b78daa2549ba460339') in 0.0022152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017414 seconds.
+  path: Assets/Obb/anv026.mp4
+  artifactKey: Guid(3db7ed809e5b77141904f74f9130c9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv026.mp4 using Guid(3db7ed809e5b77141904f74f9130c9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1494f2b5429ab66bee0d1073b23da392') in 0.0016807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Obb/anv027_char.mp4
+  artifactKey: Guid(07e1da99a55ffa2408a61702f322c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv027_char.mp4 using Guid(07e1da99a55ffa2408a61702f322c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00492f6b23ce063a614ace1c4ee6d222') in 0.0011892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Obb/aoh002_a.mp4
+  artifactKey: Guid(d3c56b5eb6a969842b95045d1e74b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh002_a.mp4 using Guid(d3c56b5eb6a969842b95045d1e74b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abd11ecbc2be5dd8b503f63000d4788a') in 0.0009689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Obb/anv027_ano.mp4
+  artifactKey: Guid(ca40dd41dd9f75d41bafc5cc4053d2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/anv027_ano.mp4 using Guid(ca40dd41dd9f75d41bafc5cc4053d2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45feb1f1dcf7ae1bf9ac43ea616553dd') in 0.0014936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042899 seconds.
+  path: Assets/Obb/aoh002_a_loop.mp4
+  artifactKey: Guid(57183dfc3a0ef2846a1c4630876346ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh002_a_loop.mp4 using Guid(57183dfc3a0ef2846a1c4630876346ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c33e194527bd90c3eb4133791405e8') in 0.0011106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Obb/aoh002_b_loop.mp4
+  artifactKey: Guid(48700b21cc9bbf743b17f87a84982e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh002_b_loop.mp4 using Guid(48700b21cc9bbf743b17f87a84982e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6074bed29a936ac3e316575b27aa940') in 0.0013404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Obb/aoh003_loop.mp4
+  artifactKey: Guid(e762e88593d189548b6c59cdcabc1764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh003_loop.mp4 using Guid(e762e88593d189548b6c59cdcabc1764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e81c0a643e543fc70a49ce13fe72948b') in 0.0011751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Obb/aoh004_ano.mp4
+  artifactKey: Guid(34709dc2bcee1ce49882729a1dd4f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh004_ano.mp4 using Guid(34709dc2bcee1ce49882729a1dd4f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f4eb07965541e93369e92b657022733') in 0.0019036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203574 seconds.
+  path: Assets/Obb/aoh004_loop.mp4
+  artifactKey: Guid(8c530bfd3dd72a84383cdc048db54d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh004_loop.mp4 using Guid(8c530bfd3dd72a84383cdc048db54d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82657b76ff78b7bdde561ebbe4523860') in 0.0033075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Obb/aoh005_loop.mp4
+  artifactKey: Guid(0dfc4ee672d83a24499afaf2a4ce80fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/aoh005_loop.mp4 using Guid(0dfc4ee672d83a24499afaf2a4ce80fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbda540c42dbc655e873a74fed5d2c9f') in 0.0013439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Obb/ast002.mp4
+  artifactKey: Guid(b54cf1e3308c14c45b350005f3225bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ast002.mp4 using Guid(b54cf1e3308c14c45b350005f3225bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bf19e71b3e21ea239b7bc14c28d95af') in 0.0021795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020056 seconds.
+  path: Assets/Obb/ath001a_blue_loop.mp4
+  artifactKey: Guid(40fda2bb9ad7e46479328caff8e1519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_blue_loop.mp4 using Guid(40fda2bb9ad7e46479328caff8e1519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b8af4ae315f9af1e74849108229a05') in 0.0016961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Obb/ath001a_green_loop.mp4
+  artifactKey: Guid(779f67c16794c40419ba255cf10289ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_green_loop.mp4 using Guid(779f67c16794c40419ba255cf10289ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03fe2493b4ad6a946ce71567b20f5c3b') in 0.0014918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Obb/ath001a_purple.mp4
+  artifactKey: Guid(cabae6f0b81fc014ba7fa0b9e5215c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_purple.mp4 using Guid(cabae6f0b81fc014ba7fa0b9e5215c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebd2fdd04fdf58c5106a059bb43e96f7') in 0.0009843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Obb/ath001a_rainbow.mp4
+  artifactKey: Guid(832fc0b014833fc44bb56868b11f1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_rainbow.mp4 using Guid(832fc0b014833fc44bb56868b11f1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a6546ee7ba0e81f49a8bfab8dcfc51') in 0.0012569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027699 seconds.
+  path: Assets/Obb/ath001a_red.mp4
+  artifactKey: Guid(19d0ba33b226d0e47a2bd46fa639cad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_red.mp4 using Guid(19d0ba33b226d0e47a2bd46fa639cad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e6f3ae914756c24de4cb366fbc7ca18') in 0.001668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Obb/ath001a_tento_loop.mp4
+  artifactKey: Guid(9be51af097e61974fa26630f63f6cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_tento_loop.mp4 using Guid(9be51af097e61974fa26630f63f6cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c74f604e3c34c1cebaad6d92b1fd0b') in 0.0025001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Obb/ath001a_tento.mp4
+  artifactKey: Guid(8855e0b6173845f43bcfcc39e57dba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_tento.mp4 using Guid(8855e0b6173845f43bcfcc39e57dba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30db7ad212f7cbcb89f440a7e754d40a') in 0.002897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Obb/ath001a_white_add.mp4
+  artifactKey: Guid(695a1d90d6846ce4ca08fae9c7de0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_white_add.mp4 using Guid(695a1d90d6846ce4ca08fae9c7de0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ceac4d8a58c659ce538718b20014376') in 0.0020633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050465 seconds.
+  path: Assets/Obb/ath001a_white_nml2.mp4
+  artifactKey: Guid(6b3379f1e76cbe746a287836256bc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_white_nml2.mp4 using Guid(6b3379f1e76cbe746a287836256bc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e10f538a826c53d6824b7f6f53cc859') in 0.0017875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Obb/ath001a_yellow.mp4
+  artifactKey: Guid(3f881f898c97444408cb45cc8a211aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001a_yellow.mp4 using Guid(3f881f898c97444408cb45cc8a211aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f95fa7b6e3d6e97bdd102c308c587214') in 0.0010785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Obb/ath001b_green.mp4
+  artifactKey: Guid(e7d9b4f42ec380f489c5075366b0999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001b_green.mp4 using Guid(e7d9b4f42ec380f489c5075366b0999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f64a194d562b41a766f480885b7184c4') in 0.0027556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.268841 seconds.
+  path: Assets/Obb/ath001b_green_loop.mp4
+  artifactKey: Guid(1de5033922c907c44a36ec7f10eaf80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001b_green_loop.mp4 using Guid(1de5033922c907c44a36ec7f10eaf80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aad015501ee295e47294c51ec8b4546') in 0.001551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Obb/ath001b_purple_loop.mp4
+  artifactKey: Guid(1aa59bbd3d19e6844819020c217c51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001b_purple_loop.mp4 using Guid(1aa59bbd3d19e6844819020c217c51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf2a44b4fb9b7d1ab8bc20e7ca07dc3c') in 0.0035017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Obb/ath001b_rainbow.mp4
+  artifactKey: Guid(f0a8e96c3c8c2c34f8275d90f26175fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obb/ath001b_rainbow.mp4 using Guid(f0a8e96c3c8c2c34f8275d90f26175fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bfe65d62a8f0dd2af8ae51e4b10ec16') in 0.0008872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

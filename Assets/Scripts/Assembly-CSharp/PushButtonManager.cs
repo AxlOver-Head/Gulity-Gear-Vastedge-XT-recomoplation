@@ -1,3 +1,5 @@
+using UnityEngine;  // add this
+
 public class PushButtonManager
 {
 	private bool isCanPush;
@@ -184,12 +186,14 @@ public class PushButtonManager
 
 	public void setPush(bool _state)
 	{
+		Debug.Log("Push state set to: " + _state);
 		isPush = _state;
 	}
 
 	public void setCanPush(bool _state)
 	{
 		isCanPush = _state;
+		Debug.Log("CanPush set to: " + _state);
 		if (MainGameScene.slotGameMan.get_pdt_data(1) != 74)
 		{
 			if (!isCanPush)

@@ -40,7 +40,7 @@ public class SGLG : MonoBehaviour
 
 	private const int MEDAL_KORYAKU = 10000;
 
-	public static readonly int OBB_VERSION = 12;
+	public static readonly int OBB_VERSION = 4;
 
 	private static float nowtime;
 
